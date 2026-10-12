@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Osobiste portfolio prac stworzonych podczas kursu sztucznej inteligencji.">
+  <meta name="theme-color" content="#f9faff">
+  <title>Moje portfolio AI</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#projekty">Przejdź do projektów</a>
+  <header class="site-header">
+    <nav class="shell navbar" aria-label="Menu główne">
+      <a class="brand" href="#start"><span class="brand-icon" aria-hidden="true">AI</span><span>Moje portfolio <b>AI</b></span></a>
+      <div class="navlinks">
+        <a href="#o-mnie">O mnie</a>
+        <a href="#projekty">Projekty</a>
+        <a href="#umiejetnosci">Umiejętności</a>
+        <a href="generator/" class="navtool" title="Pomocniczy formularz do opisów projektów">Generator opisów <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="shell">
+      <section class="hero" id="start" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> KURS SZTUCZNEJ INTELIGENCJI</span>
+          <h1 id="hero-heading">Od pomysłu<br>do <em>projektu.</em></h1>
+          <p class="hero-author" id="hero-author">Moje portfolio AI</p>
+          <p class="hero-desc" id="hero-desc">Tworzę. Eksperymentuję. Sprawdzam. Tu prezentuję efekty mojej pracy ze sztuczną inteligencją.</p>
+          <div class="hero-actions"><a class="btn primary" href="#projekty">Poznaj moje projekty <span aria-hidden="true">→</span></a><a class="btn secondary" href="#o-mnie">Więcej o mnie</a></div>
+          <div class="hero-counters" aria-label="Podsumowanie projektów"><div><strong id="counter-projects">–</strong><small>projektów</small></div><span class="counter-rule"></span><div><strong id="counter-categories">–</strong><small>kategorii</small></div><span class="counter-rule"></span><div><strong id="counter-files">–</strong><small>załączników</small></div></div>
+        </div>
+        <div class="hero-poster" aria-hidden="true">
+          <div class="poster-head"><span>PRACOWNIA POMYSŁÓW</span><span>AI / LAB</span></div>
+          <div class="poster-orb"><div class="orb-inner">AI<span>✳</span></div></div>
+          <div class="poster-message">Pytam.<br><span>Tworzę.</span><br>Odkrywam.</div>
+          <div class="poster-bottom"><span>IDEA → EKSPERYMENT → EFEKT</span><span>2026</span></div>
+        </div>
+      </section>
+      <div class="ribbon" aria-hidden="true"><span>GRAFIKA</span><i>✦</i><span>DŹWIĘK</span><i>✦</i><span>TEKST</span><i>✦</i><span>ANIMACJA</span><i>✦</i><span>KOD</span><i>✦</i><span>TECHNOLOGIA</span></div>
+      <section class="about section" id="o-mnie" aria-labelledby="about-heading">
+        <div class="avatar" id="avatar"><span class="avatar-placeholder" aria-hidden="true">:)</span><small>Tu może być<br>Twoje zdjęcie</small></div>
+        <div class="about-text"><span class="eyebrow">01 / KIM JESTEM</span><h2 id="about-heading">Ciekawość to mój<br><span>punkt wyjścia.</span></h2><p id="about-description">Jestem uczestnikiem kursu AI. W tym miejscu mogę zaprezentować swoje zainteresowania i kierunek kształcenia.</p><p id="about-field" class="about-field"></p><div class="chips" id="interests"></div></div>
+      </section>
+      <section class="section projects" id="projekty" aria-labelledby="projects-heading">
+        <div class="section-title"><div><span class="eyebrow">02 / GALERIA PRAC</span><h2 id="projects-heading">Moje eksperymenty <span>z AI.</span></h2></div><p>Każda praca to nowy pomysł. Obejrzyj, posłuchaj, uruchom lub pobierz oryginalny plik.</p></div>
+        <div class="toolbar"><div class="searchbox"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">Szukaj projektów</label><input id="search" type="search" placeholder="Szukaj projektu lub narzędzia AI..."></div><label class="sortbox">Sortuj <select id="sort"><option value="new">Najnowsze</option><option value="name">Alfabetycznie</option><option value="category">Według kategorii</option></select></label></div>
+        <div class="filters" id="filters" role="group" aria-label="Kategorie projektów"></div>
+        <div class="results-bar"><span id="count" role="status" aria-live="polite">Wczytywanie prac…</span><span class="hint">Kliknij kartę, aby zobaczyć szczegóły</span></div>
+        <div class="project-grid" id="project-grid"></div>
+        <div id="empty" class="empty" hidden><span class="empty-icon">✧</span><h3>Nie znaleziono projektów</h3><p>Spróbuj innej kategorii lub frazy. Jeśli to Twoje portfolio, dodaj pierwszą pracę na GitHubie.</p></div>
+        <div id="load-error" class="error" hidden></div>
+        <noscript><p class="error">Włącz JavaScript, aby wyświetlić portfolio.</p></noscript>
+      </section>
+      <section class="learning" id="umiejetnosci" aria-labelledby="learning-heading"><div class="learning-top"><div><span class="eyebrow">03 / MÓJ ROZWÓJ</span><h2 id="learning-heading">Nie tylko efekt.<br><span>Liczy się droga.</span></h2></div><p id="skills-intro">Podczas kursu poznaję nowe narzędzia i ćwiczę łączenie własnych pomysłów z możliwościami sztucznej inteligencji.</p></div><div class="skills-list" id="skills-list"></div></section>
+    </div>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><div><span class="footer-brand">✳ Moje portfolio AI</span><small>© <span id="year"></span> <span id="footer-author">Autor portfolio</span></small></div><div class="footer-links"><a id="github-link" hidden target="_blank" rel="noopener noreferrer">GitHub ↗</a><a id="contact-link" hidden>Kontakt ↗</a><a href="#start">Wróć na górę ↑</a></div></div></footer>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><div class="dialog-shell"><div class="dialog-head"><span id="dialog-category" class="eyebrow"></span><button class="close-dialog" id="dialog-close" type="button" aria-label="Zamknij okno">✕</button></div><h2 id="dialog-title"></h2><p class="dialog-summary" id="dialog-description"></p><div id="dialog-tags" class="chips"></div><div id="dialog-media" class="media-grid"></div><div id="dialog-more"></div><div id="dialog-files" class="downloads"></div><div class="dialog-foot"><button class="btn secondary" id="dialog-back" type="button">← Wróć do galerii</button><button class="btn subtle" id="share-button" type="button">Kopiuj link do projektu ↗</button></div></div></dialog>
+</body>
+</html>

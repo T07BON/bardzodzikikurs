@@ -1,0 +1,7 @@
+{
+  "tytul": "Moja pierwsza grafika — przykład",
+  "opis": "Demonstracyjna grafika. Wgraj do katalogu grafiki własne pliki PNG, JPG, SVG lub GIF — pojawią się na stronie automatycznie.",
+  "narzedzia": ["Grafika demonstracyjna"],
+  "prompt": "To przykład przygotowany w szablonie. Zastąp go własną pracą.",
+  "refleksja": "Po teście można skasować demonstracyjne pliki wraz z ich opisem."
+}

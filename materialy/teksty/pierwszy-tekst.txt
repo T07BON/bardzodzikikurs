@@ -1,0 +1,12 @@
+MÓJ PIERWSZY TEKST — PRZYKŁAD
+
+To jest demonstracyjny plik tekstowy.
+Możesz go otworzyć, przeczytać na stronie i pobrać.
+
+Jak dodać swoją pracę?
+1. Wejdź do repozytorium na GitHubie.
+2. Otwórz materialy/teksty.
+3. Kliknij Add file → Upload files.
+4. Wgraj plik TXT, PDF lub MD i zatwierdź Commit changes.
+
+Nowy plik automatycznie pojawi się jako osobny projekt.

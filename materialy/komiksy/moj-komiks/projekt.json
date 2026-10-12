@@ -1,0 +1,8 @@
+{
+  "tytul": "Mój komiks — przykład projektu z folderu",
+  "opis": "Dwa pliki SVG w jednym podfolderze tworzą jeden projekt. Dodaj kolejne strony, a automatycznie pojawią się w galerii tego projektu.",
+  "narzedzia": ["Przykład szablonu"],
+  "miniatura": "okladka.svg",
+  "szczegoly": "W folderze możesz umieścić dowolną liczbę wspieranych załączników. Możesz również dodać MP3 z narracją lub PDF z całym komiksem.",
+  "refleksja": "Uczę się, że folder pozwala zgromadzić kilka materiałów w jednym projekcie."
+}
