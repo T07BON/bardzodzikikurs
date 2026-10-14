@@ -1,0 +1,11 @@
+Wyłącz urządzenia: Przed podłączeniem upewnij się, że laptop jest wyłączony lub w trybie uśpienia, a monitor odłączony od prądu. (Weryfikacja: brak świecących diod zasilania).
+
+Podłącz zasilanie monitora: Wepnij kabel zasilający do monitora, a drugą końcówkę do gniazdka elektrycznego. (Weryfikacja: zapalenie się diody czuwania na monitorze).
+
+Połącz kablem HDMI: Włóż jeden koniec przewodu HDMI do portu HDMI w laptopie, a drugi koniec do portu HDMI w monitorze. (Weryfikacja: wtyki siedzą stabilnie w gniazdach).
+
+Włącz urządzenia: Włącz monitor przyciskiem zasilania, a następnie uruchom laptopa. (Weryfikacja: pojawienie się obrazu lub logo na ekranie).
+
+Wybierz źródło obrazu: W menu (OSD) monitora przyciskami obudowy wybierz jako źródło sygnału port HDMI. (Weryfikacja: brak komunikatu o braku sygnału „No Signal”).
+
+Sprawdź rozdzielczość: W ustawieniach ekranu systemu operacyjnego laptopa sprawdź, czy rozdzielczość odpowiada natywnej rozdzielczości monitora. (Weryfikacja: ostry obraz i poprawna skala elementów).
