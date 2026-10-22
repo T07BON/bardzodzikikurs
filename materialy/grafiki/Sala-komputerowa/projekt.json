@@ -1,0 +1,13 @@
+{
+  "tytul": "Sala Komputerowa",
+  "opis": "Zdjęcia sali komputerowej",
+  "narzedzia": [
+    "ChatGPT",
+    "Canva",
+    "Gemini"
+  ],
+  "szczegoly": "Zdjęcie wygenerowane wtyczką Canva w ChatGPT oraz Gemini",
+  "prompt": "Canva>ChatGPT\nWykonaj pusty (bez ludzi) pokoj od wejscia,\nW pokoju na prawej stronie sa okna prostokatne pionowe jak i tez kaloryfery i pierwsza czesc stanowisk komputerowych\nna lewo sa kolejne stanowiska komputerowe.\npozniej, glebiej w sali na lewo sa drzwi oraz krzesla poukladane na sobie i tablica na ktorej projektor wyswietla\nna srodku na suficie jest projektor\npo prawej stronie jest biurko skierowane do stanowisk a za nim tablica po ktorej sie pisze pisakiem\n\npo obu stronach sa po dwa stanowiska\nna lewo drzwi sa biale\nnajdalsza sciana na zdjeciu jest ciemno szara\nsufit jest 'plaski', swiatla sa ulozone w sposob U jak wchodzi sie do sali\nstanowiska sa z brazowego drewna\nOkna sa blizej siebie a miedzy nimi jest pilar\npo obu stronach sa tylko 4 rzedy stanowisk\n\nGemini\nWygeneruj zdjecie\n\nWykonaj pusty (bez ludzi) pokoj od wejscia,\n\nW pokoju na prawej stronie sa okna prostokatne pionowe (blisko siebie, biale z klamkami) jak i tez kaloryfery i pierwsza czesc stanowisk komputerowych\n\nna lewo sa kolejne stanowiska komputerowe.\n\npozniej, glebiej w sali na lewo sa drzwi oraz krzesla poukladane na sobie i tablica na ktorej projektor wyswietla\n\nna srodku na suficie jest czarny projektor\n\npo prawej stronie jest biurko skierowane do stanowisk a za nim tablica po ktorej sie pisze pisakiem\n\npo obu stronach sa po dwa stanowiska\n\nna lewo drzwi sa biale bez okien\n\nnajdalsza sciana na zdjeciu jest ciemno szara\n\nsufit jest 'plaski', swiatla sa ulozone w sposob U jak wchodzi sie do sali\n\nstanowiska sa z brazowego drewna\n\nOkna sa blizej siebie a miedzy nimi jest pilar\n\npo obu stronach sa tylko 4 rzedy stanowisk\nStanowiska patrza sie na biurko w oddali a biurko w ich strone\n\ndrzwi sa blizej rogu\n\ntablica dla wyswietlacza jest stojaca\n\nkrzesla sa blizej stanowisk niz rogu\n\ndrzwi na lewo sa plaskie\n\npo srodku nie ma lamp, ale z obu stron sa pilary\n\nusun gorne okna poziome",
+  "refleksja": "",
+  "data": "2026-10-22"
+}
