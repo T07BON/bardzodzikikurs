@@ -1,0 +1,12 @@
+{
+  "tytul": "Jezioro z kobietą",
+  "opis": "Praca przedstawia kobietę odpoczywającą na kamiennej plaży skierowaną na jezioro wokół lasu.",
+  "narzedzia": [
+    "Google Gemini",
+    "Bing Image Creator"
+  ],
+  "szczegoly": "Projekt był oparty na innym zdjęciu.",
+  "prompt": "Realistyczne, szerokie ujęcie od tyłu przedstawiające kobietę z długimi, prostymi, jasnymi blond włosami, ubraną w wyrazistą czerwoną koszulkę z krótkim rękawem, ciemne dopasowane spodnie oraz brązowe buty. Kobieta siedzi na szorstkim, szarym, kamienistym brzegu jeziora, lekko odchylona do tyłu i podpierająca się ręką. Po jej lewej stronie znajduje się ciemne, głębokie jezioro alpejskie z delikatnymi marszczeniami na powierzchni wody. W tle gęsty, ciemnozielony las iglasty porastający strome zbocze góry. Wysoko po lewej stronie, wśród drzew, widoczna jest niewyraźna czerwono-biała metalowa wieża kratownicowa. Nad lasem górują masywne, skaliste, szare szczyty górskie z pasmami śniegu w szczelinach, pod pochmurnym, szarym niebem. Nastrojowe, rozproszone naturalne światło dzienne, styl fotografii dokumentalnej, wysoka szczegółowość.",
+  "refleksja": "Jak robić Reverse-Engineering",
+  "data": "2026-10-27"
+}
