@@ -1,0 +1,11 @@
+{
+  "tytul": "Film o Halloween",
+  "opis": "Film Text-To-Video przedstawia dzieci przebranych w popularnych superbohaterow na halloween",
+  "narzedzia": [
+    "Adobe Firefly"
+  ],
+  "szczegoly": "",
+  "prompt": "Wykonaj film prezentujacy dzieci na halloween przebrane w popularnych bohaterow (Batman, Spider-man, Superman, ...) zbierających cukierki w stylu komiksu Marvela",
+  "refleksja": "",
+  "data": "2026-10-28"
+}
