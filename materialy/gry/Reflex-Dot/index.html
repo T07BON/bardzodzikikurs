@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflex Dot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container" id="gameContainer">
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="brand">
+            <h1>Reflex Dot</h1>
+            <span>Trening refleksu</span>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <span>Punkty</span>
+                <strong id="score">0</strong>
+            </div>
+
+            <div class="stat">
+                <span>Reakcja</span>
+                <strong id="reaction">- ms</strong>
+            </div>
+
+            <div class="stat">
+                <span>Czas</span>
+                <strong id="time">30 s</strong>
+            </div>
+
+            <div class="stat">
+                <span>Trafienia</span>
+                <strong id="progress">0 / 20</strong>
+            </div>
+        </div>
+
+        <button id="cancelBtn" class="cancel-btn">
+            ✕ Anuluj
+        </button>
+
+    </header>
+
+    <!-- USTAWIENIA -->
+    <section class="controls">
+
+        <div class="setting">
+            <label for="difficulty">Trudność</label>
+            <select id="difficulty">
+                <option value="easy">Łatwy</option>
+                <option value="medium">Średni</option>
+                <option value="hard">Trudny</option>
+            </select>
+        </div>
+
+        <div class="setting">
+            <label for="gameTime">Czas gry</label>
+            <select id="gameTime">
+                <option value="15">15 sekund</option>
+                <option value="30" selected>30 sekund</option>
+                <option value="60">60 sekund</option>
+                <option value="90">90 sekund</option>
+                <option value="120">120 sekund</option>
+            </select>
+        </div>
+
+        <div class="setting">
+            <label for="target">Cel (kropki)</label>
+            <input
+                type="number"
+                id="target"
+                value="20"
+                min="1"
+                max="200"
+            >
+        </div>
+
+        <button id="startBtn">Rozpocznij grę</button>
+
+    </section>
+
+    <!-- LEGENDA -->
+    <section class="legend">
+
+        <div class="legend-item">
+            <span class="legend-dot blue"></span>
+            <div>
+                <strong>Niebieska</strong>
+                <small>+1 punkt</small>
+            </div>
+        </div>
+
+        <div class="legend-item">
+            <span class="legend-dot green"></span>
+            <div>
+                <strong>Zielona</strong>
+                <small>+5 punktów</small>
+            </div>
+        </div>
+
+        <div class="legend-item">
+            <span class="legend-dot red"></span>
+            <div>
+                <strong>Czerwona</strong>
+                <small>-1 punkt</small>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- INFORMACJA O CELU -->
+    <div class="goal-info" id="goalInfo">
+        Traf 20 niebieskich kropek, aby otrzymać bonus!
+    </div>
+
+    <!-- OBSZAR GRY -->
+    <main id="gameArea">
+
+        <div id="blueDot" class="dot blue-dot"></div>
+        <div id="specialDot" class="dot"></div>
+
+        <div id="startMessage" class="start-message">
+            Wybierz ustawienia i rozpocznij grę.
+        </div>
+
+    </main>
+
+    <!-- KOMUNIKATY -->
+    <div class="footer">
+        <p class="message" id="message">
+            Powodzenia!
+        </p>
+
+        <div class="results" id="results"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

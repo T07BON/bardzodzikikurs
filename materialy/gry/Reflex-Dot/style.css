@@ -1,0 +1,377 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #222;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    gap: 10px;
+    background: white;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.brand {
+    min-width: 130px;
+}
+
+.brand h1 {
+    font-size: 23px;
+}
+
+.brand span {
+    color: #888;
+    font-size: 12px;
+}
+
+/* STATYSTYKI */
+
+.stats {
+    display: flex;
+    gap: 8px;
+    flex: 1;
+    justify-content: center;
+}
+
+.stat {
+    background: #f3f4f6;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 85px;
+}
+
+.stat span {
+    display: block;
+    color: #777;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.stat strong {
+    font-size: 18px;
+}
+
+/* PRZYCISKI */
+
+button, select, input {
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 10px 12px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.cancel-btn {
+    display: none;
+    background: #dc2626;
+    flex-shrink: 0;
+}
+
+.cancel-btn:hover {
+    background: #b91c1c;
+}
+
+/* USTAWIENIA */
+
+.controls {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 130px;
+}
+
+.setting label {
+    font-size: 11px;
+    color: #777;
+}
+
+select, input {
+    background: #f9fafb;
+    color: #222;
+    border: 1px solid #ddd;
+}
+
+#startBtn {
+    min-width: 150px;
+}
+
+/* LEGENDA */
+
+.legend {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 9px 12px;
+    background: #f9fafb;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.legend-item strong {
+    display: block;
+    font-size: 12px;
+}
+
+.legend-item small {
+    color: #777;
+    font-size: 11px;
+}
+
+.legend-dot {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.blue {
+    background: #2563eb;
+}
+
+.green {
+    background: #22c55e;
+}
+
+.red {
+    background: #ef4444;
+}
+
+/* INFORMACJA O CELU */
+
+.goal-info {
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    background: #eff6ff;
+    color: #2563eb;
+    border-radius: 7px;
+    flex-shrink: 0;
+}
+
+.goal-info.completed {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+/* OBSZAR GRY */
+
+#gameArea {
+    flex: 1;
+    min-height: 100px;
+    width: 100%;
+    background: #f3f4f6;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dot {
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+    transition: transform 0.1s;
+}
+
+.dot:hover {
+    transform: scale(1.08);
+}
+
+.blue-dot {
+    background: #2563eb;
+}
+
+.blue-dot:hover {
+    background: #1d4ed8;
+}
+
+#specialDot.green-dot {
+    background: #22c55e;
+}
+
+#specialDot.green-dot:hover {
+    background: #16a34a;
+}
+
+#specialDot.red-dot {
+    background: #ef4444;
+}
+
+#specialDot.red-dot:hover {
+    background: #dc2626;
+}
+
+.start-message {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 15px;
+    pointer-events: none;
+}
+
+/* STOPKA */
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 2px;
+}
+
+.message {
+    font-size: 12px;
+    color: #777;
+}
+
+.results {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+/* EKRANY MOBILNE */
+
+@media(max-width: 700px) {
+
+    .container {
+        padding: 8px;
+        gap: 7px;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+
+    .brand {
+        min-width: auto;
+    }
+
+    .brand h1 {
+        font-size: 18px;
+    }
+
+    .stats {
+        order: 3;
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    .stat {
+        flex: 1;
+        min-width: 0;
+        padding: 7px 3px;
+    }
+
+    .stat strong {
+        font-size: 14px;
+    }
+
+    .stat span {
+        font-size: 10px;
+    }
+
+    .controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 7px;
+    }
+
+    .setting {
+        min-width: 0;
+    }
+
+    #startBtn {
+        min-width: 0;
+        align-self: end;
+    }
+
+    .legend {
+        justify-content: space-around;
+        gap: 5px;
+        padding: 7px 3px;
+    }
+
+    .legend-item {
+        gap: 5px;
+    }
+
+    .legend-item strong {
+        font-size: 10px;
+    }
+
+    .legend-item small {
+        font-size: 9px;
+    }
+
+    .legend-dot {
+        width: 13px;
+        height: 13px;
+    }
+
+    .cancel-btn {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+}
