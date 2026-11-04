@@ -1,0 +1,15 @@
+{
+  "tytul": "Projekt - Film",
+  "opis": "Praca przedstawia i omawia świat ludzi i ai za 10 lat.",
+  "narzedzia": [
+    "MusicGPT",
+    "Google Gemini",
+    "ElevenLabs",
+    "Pixlr",
+    "Adobe Firefly"
+  ],
+  "szczegoly": "Projekt powstał za pomocą\nMusicGPT - Muzyka w tle\nGoogle Gemini - Skrypt omawiany w filmie\nElevenLabs - Głos który mówi skrypt w filmie\nPixlr - Zdjęcia\nAdobe Firefly - Stworzył filmy bazując się na zdjęciach\n\nWszystko bylo zedytowane w CapCut.",
+  "prompt": "",
+  "refleksja": "",
+  "data": "2026-11-04"
+}
